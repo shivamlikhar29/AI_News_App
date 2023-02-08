@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: black;
+}
+
+.hello{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    background-color: rgb(36, 36, 36);
+} 
+.bye{
+    border-bottom: 10px solid #22289a
+}
