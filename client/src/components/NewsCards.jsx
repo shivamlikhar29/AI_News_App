@@ -32,9 +32,9 @@ const infoCards = [
 const NewsCards = ({ articles, activeArticle }) => {
   if (articles.length == 0) {
     return (
-      <div className="flex justify-center items-center flex-wrap">
+      <div className="flex justify-center items-center flex-wrap mt-20 w-full">
         {infoCards.map((infoCard) => (
-          <div className="m-8 lg:mt-20 h-80 w-60 rounded flex flex-col justify-between items-center"
+          <div className="m-8 lg:mt-20 h-96 w-80 rounded flex flex-col justify-between items-center"
             style={{ backgroundColor: infoCard.color }}
           >
               <div className=" text-white text text-lg font-bold mt-2">
