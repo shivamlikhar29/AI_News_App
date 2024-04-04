@@ -42,7 +42,7 @@ function App() {
       <div style={{ background: 'black' }}>
         <div className='container h-screen mx-auto'>
           <div className='w-full flex justify-between items-center h-16 mx-4' >
-            <img className='h-16' src={logo} />
+            <img className='h-16' src={logo} onClick={()=> window.location.href = "/"} />
           </div>
           <NewsCards articles={newsArticles} activeArticle={activeArticle} />
         </div>

@@ -21,7 +21,7 @@ const NewsCard = ({article:{description,publishedAt,source,title,url,urlToImage}
      
         <img className='w-fit' src={urlToImage || "https://www.industry.gov.au/sites/default/files/August%202018/image/news-placeholder-738.png"} />
 
-        <div className='flex justify-between text-xs text-slate-500 mx-2 my-1'>
+        <div className='flex justify-between text-xs text-slate-900 mx-2 my-1'>
           <p className='text-xs'>{(new Date(publishedAt)).toDateString()}</p>
           <p className='text-xs'>{source.name}</p>
         </div>
@@ -29,7 +29,7 @@ const NewsCard = ({article:{description,publishedAt,source,title,url,urlToImage}
         <p className=' text-lg text-black font-semibold flex justify-center items-center mx-2 my-1'>{title}</p> 
 
         <div>
-          <p className='text-xs flex justify-center items-center mx-2 my-1 text-slate-500'>{description}</p>
+          <p className='text-xs flex justify-center items-center mx-2 my-1 text-slate-900'>{description}</p>
         </div>
 
 
